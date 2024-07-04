@@ -1,0 +1,76 @@
+/* Barra navegación */
+.navbar{
+    font-family: "Montserrat";
+    font-size: 15px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    
+
+/* Estilo del Carousel */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2rem;    
+  }
+  
+  .slider-frame {
+    width: 1280px;
+    height: auto;
+    margin: 0px auto 0;    
+    overflow: hidden;
+  
+    animation: slide 16 infinite alternate ease-in-out;
+  }
+  
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+  }
+  
+  .slider-frame li {
+    list-style: none;
+    width: 100%;
+  }
+  
+  .slider-frame {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0% ;}
+    20% {margin-left: 0% ;}
+  
+    25% {margin-left: -100% ;}
+    45% {margin-left: -100% ;}
+  
+    50% {margin-left: -200% ;}
+    70% {margin-left: -200% ;}
+  }
+  
+  /* Sección Contacto */
+.newsletter{
+    height: 534px;
+  }
+  .newstitulo{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25pt;
+  }
+  
+  /* Sección Footer*/
+  .footerlogo{
+    font-family: Montserrat;
+    font-size: 37px;
+    font-weight: 100;
+  }
+  
